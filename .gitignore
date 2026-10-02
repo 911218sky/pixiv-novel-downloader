@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Downloaded content (do not commit)
+downloads/
+*.txt
+
+# Environment & secrets
+.env
+.env.*
+*.cookie
+cookies.json
+
+# Logs & debug
+*.log
+npm-debug.log*
+.npm
+*.tgz
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Playwright (if used locally)
+playwright-report/
+test-results/
+
+# Temp downloads during dev
+temp_downloads/
